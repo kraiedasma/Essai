@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="App1.View.InterfacePersonne"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <TextBox Name="txtnom" PlaceholderText="votre nom" Margin="10"/>
+            <TextBox Name="txtprenom" PlaceholderText="votre prenom" Margin="10"/>
+            <TextBox Name="txtcin" PlaceholderText="votre cin" Margin="10"/>
+            <TextBox Name="txtemail" PlaceholderText="votre email" Margin="10"/>
+        </StackPanel>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Icon="Add"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
